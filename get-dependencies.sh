@@ -24,4 +24,4 @@ get-debloated-pkgs --add-common --prefer-nano
 
 # If the application needs to be manually built that has to be done down here
 mkdir -p ./AppDir/bin
-mv -v /usr/share/qemu/* ./AppDir/bin
+#cp /usr/share/qemu/* ./AppDir/bin
