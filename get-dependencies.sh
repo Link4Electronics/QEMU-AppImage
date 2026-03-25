@@ -11,6 +11,7 @@ pacman -Syu --noconfirm      \
     gtk3                     \
     libdecor                 \
     qemu-audio-pa            \
+    qemu-img                 \
     qemu-system-x86          \
     qemu-system-x86-firmware \
     qemu-ui-gtk              \
