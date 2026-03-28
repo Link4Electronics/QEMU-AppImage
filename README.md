@@ -22,8 +22,8 @@
 ```
 To emulate i386 system                                         ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-system-i386
 To create qemu images                                          ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-img
-To use 64-bit qemu user mode emulation                         ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-x86_64
-To use 32-bit qemu user mode emulation                         ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-i386
+To use x86_64 qemu user mode emulation                         ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-x86_64
+To use i386 qemu user mode emulation                           ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-i386
 To mount qemu image                                            ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-ndb
 To exercise the QEMU I/O path                                  ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-io
 To use block drivers (included curl dmg gluster iscsi nfs ssh) ./qemu-system-x86_64-*-anylinux-*.AppImage qemu-block-*
