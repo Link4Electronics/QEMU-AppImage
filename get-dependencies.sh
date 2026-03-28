@@ -15,6 +15,12 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     gtk3                     \
     libdecor                 \
     qemu-audio-pa            \
+    qemu-block-curl          \
+    qemu-block-dmg           \
+    qemu-block-gluster       \
+    qemu-block-iscsi         \
+    qemu-block-nfs           \
+    qemu-block-ssh           \
     qemu-img                 \
     qemu-system-x86          \
     qemu-system-x86-firmware \
