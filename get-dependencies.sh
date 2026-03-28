@@ -12,8 +12,6 @@ if [ "$ARCH" = "aarch64" ]; then
     pacman -U seabios-*.pkg.tar.zst edk2-ovmf-*.pkg.tar.zst --noconfirm
 fi
 pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
-    edk2-aarch64     \
-    edk2-arm         \
     gtk3             \
     libdecor         \
     pipewire-audio   \
@@ -24,6 +22,10 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     qemu-user-binfmt \
     swtpm            \
     virtiofsd
+
+if [ "$ARCH" = "x86_64" ]; then
+    pacman -S --noconfirm edk2-aarch64 edk2-arm
+fi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
