@@ -25,6 +25,7 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
     qemu-desktop     \
     qemu-user        \
     qemu-user-binfmt \
+    spice-gtk        \
     swtpm            \
     virtiofsd
 
