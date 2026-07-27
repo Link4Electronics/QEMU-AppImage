@@ -20,11 +20,12 @@ export PATH_MAPPING='/usr/lib/binfmt.d:${SHARUN_DIR}/shared/lib/binfmt.d'
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/qemu-*      \
-	/usr/lib/qemu/*.so   \
-	/usr/share/edk2      \
-	/usr/share/qemu		 \
-	/usr/lib/binfmt.d	 \
+	/usr/bin/qemu-*    \
+	/usr/bin/spice     \
+	/usr/lib/qemu/*.so \
+	/usr/share/edk2    \
+	/usr/share/qemu	   \
+	/usr/lib/binfmt.d  \
 	/usr/lib/libcapstone.so*
 
 # Additional changes can be done in between here
