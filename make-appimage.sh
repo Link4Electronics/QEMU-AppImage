@@ -28,8 +28,6 @@ quick-sharun \
 	/usr/lib/binfmt.d  \
 	/usr/lib/libcapstone.so*
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 
