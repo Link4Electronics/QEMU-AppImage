@@ -18,7 +18,6 @@ else
     pacman -S --noconfirm edk2-aarch64 qemu-system-arm-firmware
 fi
 pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
-    libdecor         \
     pipewire-audio   \
     pipewire-jack    \
     qemu-full        \
@@ -31,4 +30,4 @@ pacman -Syu --noconfirm --overwrite '/usr/share/qemu/*' \
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano libdecor-mini
